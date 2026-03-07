@@ -1,0 +1,28 @@
+# Manifestation Log: architecture.md
+
+**Date:** 2026-03-07
+**Spore:** /spores/_food/prompt.md
+**Action:** Expanded shadow file for consistent manifestation
+
+## Changes Made
+
+### Expanded Content
+- Complete folder structure convention with directory tree
+- Design System Rules including:
+  - Typography scale with CSS custom properties
+  - Complete color palette (earth tones)
+  - Responsive breakpoints (Desktop, Tablet, Mobile, Small Mobile)
+  - Spacing system values
+- HTML Component Contracts:
+  - Required meta tags
+  - Semantic structure conventions
+  - BEM-ish class naming convention
+- Component Patterns:
+  - Navigation pattern
+  - Hero section pattern
+  - Features grid pattern
+- File Manifest table
+- Consistency Rules checklist
+
+## Rationale
+The prompt requested "add shadow files for consistent manifestation". The architecture.md shadow file now serves as the authoritative technical blueprint for the sporeflow-page project, ensuring any future manifestation can maintain consistency with the established patterns.

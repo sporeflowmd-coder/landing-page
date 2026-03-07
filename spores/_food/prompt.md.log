@@ -1,0 +1,72 @@
+# Prompt Log
+
+## 2026-03-07 - GitHub Links Added to Landing Page
+
+### Action Taken
+Processed the two active prompts:
+1. Add a link at the top description pointing to the main sporeflow.md repository
+2. Add footer text "this page was created using sporeflow.md protocol" with a link to the landing page repository
+
+### Resolution Summary
+- ✅ Added GitHub link to hero description section in `/root/src/index.html`
+- ✅ Added protocol credit paragraph in footer with link to sporeflow-page repository
+- ✅ Added CSS styles for `.repo-link` class in hero description
+- ✅ Added CSS styles for `.protocol-credit` and footer links
+- ✅ Archived both active prompts with `<!-- Archived: 2026-03-07 -->`
+
+### Files Modified
+- `/root/src/index.html` - Added repo links in hero and footer
+- `/root/src/styles.css` - Added link styling (repo-link, protocol-credit)
+
+### Status
+No bugs found. All requirements implemented successfully.
+
+---
+
+## 2026-03-07 - Active Prompt Archived
+
+### Action Taken
+Archived the active prompt with the following requirements:
+1. Expand spore with Charms information
+2. Fix spelling errors (Chinese characters found in HTML)
+3. Update manifested root/ files
+4. Improve responsive design / font sizes
+
+### Archive Details
+- **Archived Tag**: `<!-- Archived: 2026-03-07 -->`
+- **Placement**: Prepended to beginning of file (as requested)
+
+### Resolution Summary
+- ✅ Created `/spores/protocol/charms.md` with Charm documentation
+- ✅ Fixed Chinese character "约束" → "constrain" in `/root/src/index.html`
+- ✅ Increased font sizes in `/root/src/styles.css` for better readability
+- ✅ All archived prompts now properly marked
+
+### Related Changes
+- Updated `spores/manifest.md` output dependencies to include charms.md
+- Created log files for manifest.md.log and charms.md.log
+
+---
+
+## 2026-03-07 (Additional) - Charms Section Added to Biomass
+
+### Action Taken
+Processed the active prompt: "updated the manifested biomass with the latest protocol/charms.md information"
+
+### Resolution Summary
+- ✅ Added new "Charms: The Mycelial Tools" section to `/root/src/index.html`
+- ✅ Added navigation link to #charms
+- ✅ Included code fingerprint examples (Origin, Transformation, Validation)
+- ✅ Added Charm Categories list (Tracing, Validation, Documentation, Isolation)
+- ✅ Added CSS styles for new Charms section elements
+- ✅ Increased responsive font sizes (H1: clamp(2.8rem, 9vw, 5rem), H2: clamp(2rem, 5vw, 2.8rem))
+- ✅ Added mobile responsiveness improvements for Charms section
+- ✅ Archived prompt.md with timestamp at beginning of file
+
+### Files Modified
+- `/root/src/index.html` - Added Charms section and navigation link
+- `/root/src/styles.css` - Added Charms styles and increased font sizes
+- `/spores/_food/prompt.md` - Archived the processed prompt
+
+### Status
+No bugs found. All requirements implemented successfully.

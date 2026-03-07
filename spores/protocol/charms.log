@@ -1,0 +1,34 @@
+# Manifestation Log: Charms Bug Fix
+
+**Date:** 2026-03-07
+**Trigger:** Bug report in `/spores/_food/last-bug.md`
+**Status:** COMPLETED
+
+## Summary
+Fixed inconsistent charms documentation in both the manifested biomass (`/root/src/index.html`) and the domain spore (`/spores/protocol/charms.md`).
+
+## Changes Made
+
+### 1. `/root/src/index.html`
+- **Action:** REPLACE
+- **Reason:** The charms section contained incorrect details about "code fingerprints" which is specific to the Tracing charm, not charms in general
+- **Modification:** Replaced lines 69-107 with simplified description explaining charms as plugins that customize SporeFlow behavior, listing the built-in charms (Tracing, Substrate, Build)
+
+### 2. `/spores/protocol/charms.md`
+- **Action:** REWRITE
+- **Reason:** The spore incorrectly described charms as primarily code fingerprinting tools
+- **Modification:** Rewrote to describe charms as plugins, with clear descriptions of built-in charms and their purposes
+
+### 3. `/spores/_food/last-bug.md`
+- **Action:** CLEARED
+- **Reason:** Bug has been fixed
+
+### 4. `/spores/_food/post-mortem.md`
+- **Action:** APPENDED
+- **Reason:** Documented the bug, root cause, fix, and prevention instructions for future reference
+
+## Verification
+- [x] Bug file cleared
+- [x] Post-mortem entry added
+- [x] Root biomass updated
+- [x] Domain spore updated

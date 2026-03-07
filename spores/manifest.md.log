@@ -1,0 +1,18 @@
+# Manifest Spore Log
+
+## 2026-03-07 - Charm Integration & Typography Updates
+
+### Changes Made
+1. **Output Dependencies Updated**: Added `/spores/protocol/charms.md` to the output dependencies list
+2. **Status**: Changed from initial creation to growing (active development)
+
+### Trigger
+- User prompt in `spores/_food/prompt.md` requested:
+  - Information about Charms (new spore concept)
+  - Fix spelling errors (Chinese characters)
+  - Responsive design improvements
+
+### Related Artifacts
+- Created: `/spores/protocol/charms.md`
+- Fixed: `/root/src/index.html` (Chinese character)
+- Updated: `/root/src/styles.css` (font sizes)
