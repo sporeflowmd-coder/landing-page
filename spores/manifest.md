@@ -2,7 +2,7 @@
 Description: Root Spore for sporeflow-page. Defines the global vision and environment.
 Status: growing
 ---
-# Manifest: sporeflow-page
+# Manifest: landing-page
 
 ## 🎯 Goal
 Tell the story of Sporeflow.md protocol, born as the need to give LLMs some hallucination control by using the analogy of a mycellium fungi, that bases the manifestation of spores to create biomass. Written by loosely guiding LLMs to manifest itself, it can retro-feed, is easy to split itself into smaller units to fit comfortably into context windows, learns from errors by digesting the bugs, keeps a log of changes. isolates secrets and variables into a restricted substrate/ path
