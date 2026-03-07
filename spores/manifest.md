@@ -1,5 +1,5 @@
 ---
-Description: Root Spore for sporeflow-page. Defines the global vision and environment.
+Description: Root Spore for landing-page. Defines the global vision and environment.
 Status: growing
 ---
 # Manifest: landing-page
