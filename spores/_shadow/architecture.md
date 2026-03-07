@@ -6,9 +6,7 @@ Status: growing
 
 ## 🏗️ Folder Structure Convention
 ```
-/root/
-  /src/              # Source files (HTML, CSS, JS, assets)
-  /output/           # Resulting artifacts (if build step needed)
+/root/               # Source files (HTML, CSS, JS, assets)
   
 /spores/             # Intent definition (domain logic)
   /_shadow/          # Technical blueprints (this directory)
